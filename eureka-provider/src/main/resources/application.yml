@@ -1,0 +1,13 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /springcloud
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server2:8672/eureka,http://eureka-server3:8673/eureka
+  instance:
+    hostname: localhost
+spring:
+  application:
+    name: eureka-provider

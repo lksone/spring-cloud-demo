@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+#eureka的配置地址和配置项目
+eureka:
+  instance:
+    hostname: eureka-server1
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka # eureka的通信地址
+    fetch-registry: false #是否需要抓取路径，server不需要，eureka consumer client需要
+    register-with-eureka: false #是否将自己的路径 注册到eureka上。eureka server 不需要的，eureka provider client 需要
+  server:
+    enable-self-preservation: false #关闭自我保护机制
+    eviction-interval-timer-in-ms: 3000 #检查服务的时间间隔

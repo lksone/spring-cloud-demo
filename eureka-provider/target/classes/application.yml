@@ -1,0 +1,13 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /springcloud
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8672/eureka #server的地址
+  instance:
+    hostname: localhost
+spring:
+  application:
+    name: eureka-provider

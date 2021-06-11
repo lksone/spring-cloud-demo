@@ -1,0 +1,15 @@
+server:
+  port: 8673
+
+#eureka的配置地址和配置项目
+eureka:
+  instance:
+    hostname: eureka-server3
+  client:
+    service-url:
+      defaultZone: http://eureka-server2:8672/eureka # eureka的通信地址
+    fetch-registry: true #是否需要抓取路径，server不需要，eureka consumer client需要
+    register-with-eureka: true #是否将自己的路径 注册到eureka上。eureka server 不需要的，eureka provider client 需要
+spring:
+  application:
+    name: eureka-server-ha

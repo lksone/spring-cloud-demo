@@ -1,0 +1,5 @@
+com\lks\demo\provider\controller\GoodsController.class
+com\lks\demo\provider\service\GoodsService.class
+com\lks\demo\ProviderApplication.class
+com\lks\demo\provider\service\impl\GoodsServerImpl.class
+com\lks\demo\provider\entitys\Goods.class

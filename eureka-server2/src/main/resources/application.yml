@@ -1,0 +1,13 @@
+server:
+  port: 8672
+spring:
+  application:
+    name: eureka-server-ha
+eureka:
+  instance:
+    hostname: eureka-server2
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka-server3:8673/eureka # eureka的通信地址
