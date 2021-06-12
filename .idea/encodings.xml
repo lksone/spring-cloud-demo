@@ -2,13 +2,20 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/consul-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consul-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-provdier/src/main/java" charset="UTF-8" />
   </component>
 </project>

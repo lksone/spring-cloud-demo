@@ -8,14 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-service" />
+        <module name="nacos-provdier" />
+        <module name="nacos-consumer" />
         <module name="eureka-provider" />
         <module name="eureka-server2" />
         <module name="consul-consumer" />
-        <module name="eureka-consumer" />
-        <module name="eureka-server3" />
         <module name="consul-provider" />
+        <module name="eureka-server3" />
+        <module name="eureka-consumer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-pom-project" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -26,6 +31,8 @@
       <module name="eureka-server2" options="-parameters" />
       <module name="eureka-server3" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
+      <module name="nacos-consumer" options="-parameters" />
+      <module name="nacos-provdier" options="-parameters" />
     </option>
   </component>
 </project>

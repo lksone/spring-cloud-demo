@@ -5,7 +5,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8672/eureka #server的地址
+      defaultZone: http://eureka-server2:8672/eureka,http://eureka-server3:8673/eureka
   instance:
     hostname: localhost
 spring:
